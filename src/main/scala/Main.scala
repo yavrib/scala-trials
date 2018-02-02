@@ -13,7 +13,7 @@ object Main {
     implicit val executionContext = system.dispatcher
 
     val route =
-      pathPrefix("Hello") {
+      pathPrefix("World") {
         get {
           complete(s"Hello, world!")
         }
